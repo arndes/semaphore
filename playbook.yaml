@@ -2,7 +2,5 @@
 - hosts: all
   gather_facts: false
 
-  tasks:
-    - name: say hello
-      debug:
-        msg: "Hello world"
+  roles:
+    - common
